@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+.card{
+    width: 22%;
+    border: 30px;
+    text-align: center;
+    box-shadow: 3px 5px 7px gray;
+    border-radius: 30px !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+h5{
+    color: rgb(219, 11, 136);
+}
+
+h2{
+    font-size: xx-large;
+}
+
+
+.card-body{
+    padding: 30px 45px;
+}
+
+.card-body1 h5{
+    color: darkorange;
+}
+
+
+.card-head img{
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px !important;
+    
+}
+
+.footer1{
+    background-color: rgb(219, 11, 136);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.footer2{
+    background-color: rgb(11, 225, 82);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.footer3{
+    background-color: rgb(15, 156, 212);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+.box1{
+    width: 33%;
+    border-right: 1px solid black;
+}
+.box2{
+    width: 33%;
+    border-right: 1px solid black;
+}
+.card-body p{
+    padding-bottom: 20px;} 
+
+.card-carry{
+    display: flex;
+     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   height: auto;
+  }
+
+    .box{
+      font-size: 14px;
+      padding-right: 15px;
+    }
+
